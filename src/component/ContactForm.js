@@ -3,8 +3,8 @@ import { Button, Form } from 'react-bootstrap'
 import { useDispatch } from 'react-redux';
 
 const ContactForm = () => {
-  const [name, setName] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState(0);
+  let [name, setName] = useState('');
+  let [phoneNumber, setPhoneNumber] = useState(0);
   const dispatch = useDispatch();
   const addContact = (e) => {
     e.preventDefault();
