@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 
 const ContactForm = () => {
   let [name, setName] = useState('');
-  let [phoneNumber, setPhoneNumber] = useState(0);
+  let [phoneNumber, setPhoneNumber] = useState('');
   const dispatch = useDispatch();
   const addContact = (e) => {
     e.preventDefault();
