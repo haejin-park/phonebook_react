@@ -1,11 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Col, Form, Row } from 'react-bootstrap'
 import { useDispatch } from 'react-redux';
-/*
-검색 값 입력한다 
-찾기 누른다
-useDispatch로 키워드 보낸다
-*/ 
+
 const SearchBox = () => {
   let [keyword, setKeyword] = useState("");
   let dispatch = useDispatch();

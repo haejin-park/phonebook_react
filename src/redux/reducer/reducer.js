@@ -4,7 +4,6 @@ let initialState = {
 };
 
 function reducer(state=initialState, action) {
-    console.log('action',action);
     const {type, payload} = action;
     switch(type) {
         case "ADD_CONTACT": 
